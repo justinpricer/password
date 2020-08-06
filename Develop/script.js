@@ -92,8 +92,10 @@ function generatePassword() {
         var ps = password.join("");
         //UserInput(ps);
         return ps;
+
     };
 
+    
     // Else if for 4 negative options
     // if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
     //     choices = alert("You must choose a criteria!");
@@ -155,10 +157,10 @@ function generatePassword() {
 
     // password variable is an array placeholder for user generated amount of length
 
-}
+
 // This puts the password value into the textbox
 // Changed function input to use textcontent
 // function UserInput(ps) {
 //     document.getElementById("password").textContent = ps;
 
-// }
+
